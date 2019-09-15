@@ -1,0 +1,180 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body{
+    background: #012840;
+}
+
+.d-none{
+    display: none!important;
+}
+
+.winnerText{
+    color: #30CFF2;
+}
+
+input{
+    width: 4rem;
+    border: .1rem solid #30CFF2;
+    border-radius: .4rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    background: #024873;
+}
+
+.m-0{ margin: 0;}
+.mt-1{ margin-top: .2rem;}
+.mt-2{ margin-top: .4rem;}
+.p-0{ padding: 0;}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #012840;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.appBox{
+    width: 40rem;
+    max-width: 90vw;
+    border: .1rem solid #30CFF2;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #30CFF2;
+    padding: 2rem 0rem;
+    background: #024873;
+    text-align: center;
+}
+
+.boxColumn{
+    width: 30rem;
+    flex-direction: column;
+}
+
+.scoresBox{
+    width: 100%;
+}
+
+.buttonBox{
+    width: 20rem;
+}
+
+.playerButtonsBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonPlayers{
+    border: .1rem solid #30CFF2;
+    border-radius: .4rem;
+    padding: 1rem;
+    width: 49%;
+    background: #012840;
+    font-size: 1rem;
+}
+
+.endingButtonsBox{
+    display: flex;
+    flex-direction: column;
+}
+
+#resetButton{
+    border: .1rem solid #30CFF2;
+    border-radius: .4rem;
+    padding: .5rem;
+    width: 100%;
+    background: #012840;
+    font-size: 1rem;  
+}
+
+#exitButton{
+    border: .1rem solid #30CFF2;
+    border-radius: .4rem;
+    padding: .5rem;
+    width: 100%;
+    background: #024873;
+    font-size: 1rem;   
+}
+
+.winningScore{
+    font-size: 2rem;
+}
+
+.scores{
+    width: 33.33%;
+    margin: 1rem 0;
+    font-size: 8rem;
+    text-shadow: 0 0 .5rem #30CFF2;
+}
+.textQuestion{
+    font-size: 1rem;
+}
+
+.btn-sh:hover{
+    box-shadow: 0 0 1rem #30CFF2;
+}
+
+@media (max-width: 900px){
+
+    .mt-1{ margin-top: .2rem;}
+    .mt-2{ margin-top: .4rem;}
+
+    .appBox{
+        width: 30rem;
+        max-width: 90vw;
+        padding: 1rem 0rem;
+    }
+
+    .boxColumn{
+        width: 20rem;
+    }
+
+    .buttonBox{
+        width: 20rem;
+    }
+
+    .buttonPlayers{
+        padding: .5rem;
+        width: 49%;
+        font-size: 1rem;
+    }
+    
+    #resetButton{
+        padding: .5rem;
+        width: 100%;
+        font-size: 1rem;  
+    }
+    
+    #exitButton{
+        padding: .5rem;
+        width: 100%;
+        font-size: 1rem;   
+    }
+    
+    .winningScore{
+        font-size: 1.5rem;
+    }
+
+    .scores{
+        margin: 0!important;
+        width: 33.33%;
+        margin: 1rem 0;
+        font-size: 6rem;
+    }
+    .textQuestion{
+        font-size: 1rem;
+    }
+
+
+}

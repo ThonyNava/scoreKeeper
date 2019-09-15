@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Keeper</title>
+</head>
+<body class="m-0 p-0">
+    <div class="container containerCounter d-none flexCenter m-0">
+        <div class="appBox flexCenter">
+            <div class="boxColumn flexCenter">
+                <p class="winningScore m-0">
+                    <span class="winningScoreQuestion">The winning score is </span>
+                    <span id="winningScoreText"></span>
+                </p>
+                <div class="scoresBox flexCenter">
+                    <h2 class="scores" id="p1ScoreText">0</h2>
+                    <h2 class="scores"> to </h2>
+                    <h2 class="scores" id="p2ScoreText">0</h2>
+                </div>
+                <div class="buttonBox">
+                    <div class="playerButtons">
+                        <p class="textQuestion m-0">Who won this round?</p>
+                        <div class="playerButtonsBox mt-2">
+                            <button class="buttonPlayers btn-sh m-0" id="p1Button">Player One</button>
+                            <button class="buttonPlayers btn-sh m-0" id="p2Button">Player Two</button>
+                        </div>
+                    </div>
+                    <div class="endingButtons mt-1">
+                        <div class="endingButtonsBox">
+                            <button class="btn-sh mt-1" id="resetButton">Another round</button>
+                            <button class="btn-sh mt-1" id="exitButton">Restart</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container containerInput flexCenter m-0">
+        <div class="appBox flexCenter">
+            <div class="boxColumn flexCenter">
+                <p class="winningScore">How many rounds are you goin to play?</p>
+                <input class="mt-2" type="number" name="" id="inputUserRounds">
+                <button id="buttonStart" class="buttonPlayers btn-sh mt-2">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
