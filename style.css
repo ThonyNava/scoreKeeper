@@ -133,7 +133,7 @@ input{
     .appBox{
         width: 30rem;
         max-width: 90vw;
-        padding: 1rem 0rem;
+        padding: 1rem;
     }
 
     .boxColumn{
